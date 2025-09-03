@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+*.env
+.venv/
+.env
+.python-version
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Models / datasets (keep large files out of Git)
+trained_model/*.h5
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.onnx
+
+# Node, if any
+node_modules/
+
+# Docker
+*.tar
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db

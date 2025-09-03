@@ -1,0 +1,10 @@
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.log
+node_modules
+*.h5
+.streamlit/secrets.toml
+.git
+.gitignore
